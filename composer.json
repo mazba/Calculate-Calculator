@@ -1,0 +1,21 @@
+{
+  "name": "mazba/commission-fee-calculator",
+  "description": "Commission Fee Calculator",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Md. Mazba Kamal",
+      "email": "mazba.cse@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-curl": "*",
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mazba\\": "src/"
+    }
+  }
+}
